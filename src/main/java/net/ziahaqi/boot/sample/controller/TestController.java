@@ -12,7 +12,7 @@ import java.util.Map;
  * Created by ziahaqi on 8/19/16.
  */
 @RestController
-public class HalloController {
+public class TestController {
 
     @RequestMapping("/date")
     public Map<String, Object> date(@RequestParam(value = "place", required = false) String place){
